@@ -1,0 +1,1120 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#HEADER {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: black;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#HEADER h3 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 8px rgb(5, 5, 5);
+    font-size: 90%;
+}
+#navbar {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+    flex-wrap: wrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+
+}
+#navbar a:hover{
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+#HEADER .LOGO {
+    height: 30px;
+}
+
+#HERO {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(/IMAGES/BANNER/pexels-olly-716658.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 20px 30px;
+    height: 80vh;
+    padding: 0 80px 10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: top 25% right 0%;
+   animation: change 12s infinite ease;
+  
+}
+#HERO h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 120%;
+    margin: 0px;
+}
+
+#HERO h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 8px rgb(5, 5, 5);
+    font-size: 400%;
+    margin: 0px;
+}
+
+#HERO h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 8px rgb(5, 5, 5);
+    font-size: 200%;
+}
+
+#HERO h6 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-weight: bolder;
+    font-size: 80%;
+}
+#HERO button {
+    color: white;
+    border-radius: 15px;
+    border: blueviolet;
+    cursor: pointer;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: rgb(5, 5, 5);
+    transition: 0.3s ease;
+}
+#HERO button a {
+    text-decoration: none;
+    list-style: none;
+}
+
+#HERO button li{
+    text-decoration: none;
+    list-style: none;
+}
+
+#HERO .hero-button:hover{
+    background-color: blueviolet;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+button.hero-button {
+    background-color: transparent;
+    color: white;
+}
+
+#nav-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#FLAGS {
+    text-align: center;
+}
+
+#FLAGS .FLA {
+    width: 2%;
+    min-width: 250px;
+    border-radius: 25px;
+    cursor: pointer;
+    position: absolute;
+    left: 100%;
+    width: 200px;
+    height: 100px;
+    animation-name: scrollleft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#FLAGS .FLA p {
+     padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+
+}
+
+#FLAGS .FLA img {
+ width: 50%;
+  min-width: 50px;
+  background-color: black;
+  border-radius: 25px;
+}
+
+#FLAGS .FLAG-CONTAINER {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-inline: auto;
+    position: relative;
+    height: 100px;
+    overflow: hidden
+    ;
+}
+
+.FLA1{
+    animation-delay: calc(30s / 5 * (5 - 1)  * -1);
+}
+
+.FLA2{
+    animation-delay: calc(30s / 5 * (5 - 2)  * -1);
+}
+.FLA3{
+    animation-delay: calc(30s / 5 * (5 - 3)  * -1);
+}
+
+.FLA4{
+    animation-delay: calc(30s / 5 * (5 - 4)  * -1);
+}
+
+.FLA5{
+    animation-delay: calc(30s / 5 * (5 - 5)  * -1);
+}
+
+
+
+
+#FEATURE .FEA{
+   width: 90%;
+   max-width: 1536px;
+   margin-inline: auto;
+   position: relative;
+   height: 100px;
+   overflow: hidden
+   ;
+}
+
+#FEATURE .feature {
+    position: absolute;
+    left: 100%;
+    width: 200px;
+    height: 100px;
+    animation-name: scrollleft;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes scrollleft {
+    to {
+        left: -200px;
+    }
+    
+}
+
+.feature1{
+    animation-delay: calc(30s / 5 * (5 - 1)  * -1);
+}
+
+.feature2{
+    animation-delay: calc(30s / 5 * (5 - 2)  * -1);
+}
+.feature3{
+    animation-delay: calc(30s / 5 * (5 - 3)  * -1);
+}
+
+.feature4{
+    animation-delay: calc(30s / 5 * (5 - 4)  * -1);
+}
+
+.feature5{
+    animation-delay: calc(30s / 5 * (5 - 5)  * -1);
+}
+
+#FEATURE .feature h3{
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 110%;
+    color: blueviolet;
+}
+
+
+
+
+
+
+#COURSES {
+    text-align: center;
+}
+
+#COURSES .cor img {
+  width: 100%;
+  min-width: 200px;
+  background-color: black;
+  border-radius: 25px;
+}
+
+#COURSES .cor {
+    width: 30%;
+    min-width: 250px;
+    padding: 9px 10px ;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.03);
+    margin: 10px 0;
+    position: relative;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+#COURSES .cor p {
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+#COURSES .cor h5 {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+}
+#COURSES .cor h6 {
+    margin: 7px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 80%;
+    color: blueviolet;
+}
+
+
+#COURSES .cor h4 {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+
+#COURSES .cor-containers {
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    animation-direction: alternate;
+}
+
+#COURSES h2 {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+#COURSES .start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+}
+
+#COURSES .lesson {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+#COURSES .les{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+#COURSES .les2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+#COURSES .lesson button {
+    padding: 20px;
+    border-radius: 25px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+#COURSES .start button {
+    padding: 20px;
+    border-radius: 25px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    background-color: blueviolet;
+    cursor: pointer;
+    color: white;
+}
+#COURSES .start .ratings {
+    color: rgb(255, 187, 0); 
+}
+
+#COURSES .cor:hover button{
+    background-color: purple;
+    color: white;
+    transition: 0.2s;
+};
+
+
+
+
+#products {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 600x;
+    margin: 0px;
+}
+
+.swipe{
+    position: relative;
+    bottom: 400px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.swipe .swipy {
+    color: blueviolet;
+    border: 2px solid ;
+    padding: 10px;
+    size: 10px;
+    border-radius: 20px;
+
+}
+
+.swipe .swipy:hover {
+    color: white;
+    background-color: blueviolet;
+    padding: 20px;
+
+
+}
+.slider-wrapper {
+    overflow: hidden;
+    max-width: 1630px;
+    margin: 0 70px 55px;
+
+    
+}
+
+.products-header {
+    text-align: center;
+    margin: 10px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    color: blueviolet;
+}
+.KPOP-header {
+    text-align: center;
+    margin: 10px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+#products .products-container{
+    display: flex;
+    align-items: center;  
+    justify-content: space-evenly;
+    animation-direction: alternate;
+    text-align: center;
+    position: relative;
+}
+
+.pro {
+    text-align: center;
+    width: 30%;
+    min-width: 250px;
+    padding: 9px 10px ;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.03);
+    margin: 10px 0;
+    position: relative;
+}
+.pro:hover .pro {
+   padding: 20px;
+}
+
+.pro img {
+    width: 100%;
+    min-width: 200px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.pro .SHOP .ratings {
+    color: rgb(255, 187, 0); 
+}
+
+.pro .SHOP {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.SHOP .cart {
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 25%;
+    color: white;
+}
+.SHOP {
+    margin: 10px;
+ }
+.GET {
+    margin: 10px;
+ }
+ .GET button a{
+   text-decoration: none;
+}
+
+.GET button {
+    border: none;
+    border-radius: 10px;
+ }
+
+ .GET button:hover {
+    background-color: blueviolet;
+    color: white;
+ }
+
+ .GET button:hover h3{
+    color: white;
+ }
+
+.pro .GET {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pro .pro-name {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.pro .pro-des {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.pro p {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 50%;
+}
+
+.GET p{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+ }
+
+ #products .products-container .scroll{
+       width: 100%;
+       position: absolute;
+       justify-content: space-between;
+       display: flex;
+       bottom: 50%;
+       padding: 20px;
+ }
+
+ #products .products-container .scroll button {
+    background-color: blueviolet;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin: 0px 0 10px;
+    border-radius: 50%;
+    color: white;
+ }
+
+ .swiper {
+    width: 600px;
+    height: 300px;
+  }
+
+
+
+
+
+
+
+
+
+#EXPLORE {
+    text-align: center;
+}
+
+  #EXPLORE h1 {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+  }
+  #EXPLORE p {
+    margin: 10px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+
+  #EXPLORE .POLYGLOT{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+#LEARN {
+    text-align: center;
+}
+#LEARN h1{
+    background-image: url(/IMAGES/BANNER/banner\ 2.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 70px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+    animation: LEARN 10s infinite ease;
+}
+
+#LEARN .LEA img {
+    width: 100%;
+  min-width: 200px;
+  background-color: black;
+  border-radius: 25px;
+}
+
+#LEARN .LEA-CONTAINER a{
+    background-color: azure;
+    animation: 10s infinite ease-in;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    animation-direction: normal;
+}
+
+    #LEARN .LEA {
+        animation: 10s infinite ease-in;
+        width: 20%;
+        min-width: 250px;
+        padding: 9px 10px ;
+        border-radius: 25px;
+        cursor: pointer;
+        box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.03);
+        margin: 10px 0;
+        position: relative;
+        animation: products linear;
+      animation-timeline: view();
+      animation-range: entry 0% cover 40%;
+    }
+
+#TEAM {
+    text-align: center;
+    border: 1px rgb(51, 14, 185);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+#TEAM .TEAMS img {
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: 2px rgb(5, 5, 5); 
+}
+
+#TEAM .TEAMS h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    padding: 30px;
+}
+
+#TEAM .TEAMS {
+    width: 20%;
+    min-width: 250px;
+    padding: 9px 10px ;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.03);
+    margin: 10px 0;
+    position: relative;
+    animation: appear linear;
+      animation-timeline: view();
+      animation-range: entry 0% cover 40%;
+}
+
+
+.TEAM-CONTAINER {
+ display: flex;  
+ justify-content: space-evenly;
+ align-items: center;
+}
+.details {
+    width: 60%;
+}
+
+#TEAM .normal{
+    background-image: url(/IMAGES/BANNER/pexels-gabby-k-7412094.jpg);
+    background-size: 100%;
+    background-position: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    padding: 30px;
+    color: black;
+    text-shadow: 0 0 8px rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+#TEAM .professionals{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    padding: 30px;
+    font-size: 50px;   
+}
+
+#TEAM h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    padding: 30px; 
+}
+
+#TEAM button h3 {
+    padding: 30px;
+}
+#TEAM button {
+    border: none;
+    border-radius: 10px
+}
+
+#TEAM button:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+#TEAM button:hover h3 {
+    color: white;
+}
+
+#TEAM h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    padding: 10px;
+}
+
+#DIPLOMATS {
+    text-align: center;
+}
+
+
+
+#DIPLOMATS .DIPLO {
+    background-image: url(/IMAGES/DIPLO/DIPLO\ 1\ \(1\).jpg);
+    padding: 40px;
+    color: white;
+    background-position: center;
+    background-size: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+
+}
+
+
+#DIPLOMATS .DIPLOMAT img {
+    width: 100%;
+    min-width: 200px;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+#DIPLOMATS .DIPLOMAT {
+    animation: 10s infinite ease-in;
+    width: 30%;
+    min-width: 250px;
+    padding: 4px 5px ;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.03);
+    margin: 10px 0;
+    position: relative;
+    animation: appear linear;
+      animation-timeline: view();
+      animation-range: entry 0% cover 40%;
+}
+
+#DIPLOMATS .DIPLOMAT-CONTAINER {
+    animation: 10s infinite ease-in;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    animation-direction: normal;
+}
+#ADMISSION {
+    width: 100%;
+  height: 90vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(/IMAGES/ADMISSION/LEONARDOPOLYGLOTO\ LANGUAGE\ ACADEMY\ CALENDAR\ .jpg) no-repeat center center;
+  background-size: cover;
+    text-align: center;
+}
+
+#ADMISSION h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    font-size: 250%;
+    text-shadow: 0 0 10px rgb(5, 5, 5);
+    background-position: center;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+   
+}
+
+#ADMISSION h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    font-size: 200%;
+    background-position: center;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+   
+}
+
+
+#ADMISSION h6 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    font-size: 50%;
+    background-position: center;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+   
+}
+
+
+#ADMISSION button {
+    border: none;
+    border-radius: 10px;
+    padding: 20px 40px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+#ADMISSION button:hover{
+    background-color: blueviolet;
+    transition: 0.2s ease;
+    cursor: pointer;
+    border: white;
+    color: white;
+}
+
+.ENROLL a {
+    color: white;
+    text-decoration: none;
+}
+
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(/IMAGES/img/banner/b14.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: rgb(3, 3, 31);
+    margin-bottom: 0;
+}
+
+#newsletter h4 {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+#newsletter p {
+    color: rgb(35, 42, 138);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#newsletter p span  {
+    color: white;
+}
+#newsletter input {
+   height: 3.125rem;
+   padding: 0 i.25em;
+   font-size: 14px;
+   width: 100%;
+   border: 1px solid transparent;
+   border-radius: 4px;
+   outline: none;
+}
+
+#newsletter button {
+    background-color: blueviolet;
+    color: white;
+    white-space: nowrap;
+    padding: 20px;
+    border-radius: 0 10px 10px 0px;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 45%;
+}
+
+
+footer {
+    background-image: url(/IMAGES/img/banner/b14.png);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(3, 3, 31);
+    color: white;
+    padding: 30px;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    height: 30px;
+    margin-bottom: 0px;
+}
+
+footer a {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding-top: 0px;
+    font-size: 13px;
+    margin: 0 0 8px 0;
+    padding-bottom: px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color: white;
+}
+
+footer h4{
+  font-size: 19px;
+  padding-bottom: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+    padding-bottom: px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+  }
+
+  footer .install .row img {
+    border: 1px solid blue;
+    border-radius: 25px;
+    display: flex;
+    
+
+  }
+
+footer .install img {
+    margin: 10px 0 15px 0;
+}
+
+footer a:hover {
+    color: blue;
+}
+
+footer .copyright{
+ text-align: center;
+ width: 100%;
+}
+
+
+
+@keyframes products {
+    from {
+        opacity: 0;
+       transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+@keyframes LEARN {
+    0% {
+        background-image: url(/IMAGES/BANNER/banner\ 2.png);
+    }
+    20% {
+        background-image: url(/IMAGES/MAP/map\ 3.jpg);
+    }
+    40% {
+        background-image: url(/IMAGES/MAP/LEONARDOPOLYGLOTO\ WELCOME\ BACK\ TO\ SCHOOL.jpg);
+    }
+    60% {
+        background-image: url(/IMAGES/MAP/LEONARDO\ MODEL.png);
+    }
+
+}
+
+
+@keyframes change {
+    0% {
+        background-image: url(/IMAGES/BANNER/banner\ 2.png);
+    }
+    20% {
+        background-image: url(/IMAGES/MAP/LEONARDOPOLYGLOTO\ WELCOME\ BACK\ TO\ SCHOOL.jpg);
+    }
+    40% {
+        background-image: url(/IMAGES/BANNER/project\ \(4\).jpg);
+    }
+    60% {
+        background-image: url(/IMAGES/BANNER/project\ \(3\).jpg);
+    }
+    80% {
+        background-image: url(/IMAGES/BANNER/project\ \(2\).jpg);
+    }
+    100% {
+        background-image: url(/IMAGES/MAP/LEONARDO\ MODEL.png);
+    }
+
+}
+
+
+
+
+.section-p1 {
+    padding:  40px 80px;
+ }
+ 
+ .section-m1 {
+     margin: 40px 0;
+ }

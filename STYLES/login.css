@@ -1,0 +1,293 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+#HEADER {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: black;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#HEADER h3 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 8px rgb(5, 5, 5);
+    font-size: 90%;
+}
+#navbar {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+    flex-wrap: wrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+
+}
+#navbar a:hover{
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+#HEADER .LOGO {
+    height: 30px;
+}
+
+#register {
+    padding: 0px;
+    margin: 0px;
+    background-image: url(/IMAGES/ADMISSION/ADMISSION\ \(4\).jpg);
+    background-position: right;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.wrapper {
+    background-color: white;
+    height: 100vh;
+    width: max(40%, 600px);
+    padding: 70px;
+    margin: opx;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0px 20px 20px 0px;
+}
+
+label {
+    background-color: blueviolet;
+     border-radius: 10px;
+     color: white;
+     padding: 10px;
+     flex-shrink: 0;
+     width: 50px;
+     height: 50px;
+}
+
+form input {
+    padding: 1em;
+    margin: 10px;
+    box-sizing: border-box;
+    flex-grow: 1;
+    min-width: 0;
+    border: none;
+
+}
+form input:focus {
+    outline: none;
+}
+form input:hover {
+    border: 1px solid blueviolet;
+    border-radius: 0 20px;
+}
+
+div:has(input:focus) > label {
+    background-color: black;
+}
+
+
+
+form {
+    padding: 10px;
+}
+
+
+ button {
+    padding: 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: blueviolet;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(/IMAGES/img/banner/b14.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: rgb(3, 3, 31);
+    margin-bottom: 0;
+}
+
+#newsletter h4 {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+#newsletter p {
+    color: rgb(35, 42, 138);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#newsletter p span  {
+    color: white;
+}
+#newsletter input {
+   height: 3.125rem;
+   padding: 0 i.25em;
+   font-size: 14px;
+   width: 100%;
+   border: 1px solid transparent;
+   border-radius: 4px;
+   outline: none;
+}
+
+#newsletter button {
+    background-color: blueviolet;
+    color: white;
+    white-space: nowrap;
+    padding: 20px;
+    border-radius: 0 10px 10px 0px;
+}
+
+#newsletter .form {
+    display: flex;
+    width: 45%;
+}
+
+
+footer {
+    background-image: url(/IMAGES/img/banner/b14.png);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(3, 3, 31);
+    color: white;
+    padding: 30px;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    height: 30px;
+    margin-bottom: 0px;
+}
+
+footer a {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding-top: 0px;
+    font-size: 13px;
+    margin: 0 0 8px 0;
+    padding-bottom: px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color: white;
+}
+
+footer h4{
+  font-size: 19px;
+  padding-bottom: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+    padding-bottom: px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+  }
+
+  footer .install .row img {
+    border: 1px solid blue;
+    border-radius: 25px;
+    display: flex;
+    
+
+  }
+
+footer .install img {
+    margin: 10px 0 15px 0;
+}
+
+footer a:hover {
+    color: blue;
+}
+
+footer .copyright{
+ text-align: center;
+ width: 100%;
+}
+
+
+.section-p1 {
+    padding:  40px 80px;
+ }
+ 
+ .section-m1 {
+     margin: 40px 0;
+ }
+
+
+ @media (max-width: 1100px) {
+     .wrapper {
+        width: min(600px, 100%);
+     }
+ }
